@@ -1,0 +1,10 @@
+/.vscode
+/storage/*.key
+/vendor
+.DS_STORE
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log

@@ -1,0 +1,8 @@
+*
+!/docs
+!/images
+!.gitignore
+!.htaccess
+!index.php
+!robots.txt
+!web.config
