@@ -72,9 +72,6 @@ Hier ist eine Roadmap aller Features
 - [ ] Speisekarte über App bearbeitbar
 - [ ] Kombination von Speisen zu einem Menü mit besonderen Preisen
 
-[Zur Dokumentation 🧪](DOKUMENTATION.md)
-
-
 ## Beispiel
 
 Schau dir an wie FoodCart aussieht! Sollte dir es gefallen, dann würde ich mich über einen Stern freuen 😊
