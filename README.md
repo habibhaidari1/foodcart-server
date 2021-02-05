@@ -3,7 +3,7 @@
 FoodCart ist das Online-Bestellsystem für deinen Lieferservice. Das vorliegende Projekt ist eines von Dreien. Es handelt sich hierbei um die Server-Anwendung basierend auf PHP / Laravel.
 
 <p align="center">
-<img src="https://github.com/habibhaidari1/food-cart-js/raw/master/public/icon.png" alt="icon" width="100"/>
+<img src="https://github.com/habibhaidari1/foodcart-client/raw/master/public/icon.png" alt="icon" width="100"/>
 </p>
 <p align="center">
 <img src="https://i.imgur.com/UfkWtpf.jpg" alt="screenshot" width="30%"/>
@@ -54,6 +54,7 @@ Hier ist eine Roadmap aller Features
 - [x] Android App zum Drucken von Belegen und Verwalten des Restaurants
 - [x] Export aller Bestellungen als CSV-Report
 - [x] Schreiben von WhatsApp-Nachrichten auf die hinterlegte Telefonnummer des Kundens möglich
+- [x] Dynamisch anpassbare Steuersätze
 - [ ] Blockchaining, der Bestellungen, um manipulation der Bestellungen zu verhindern
 - [ ] Kundenverwaltung in der App
 - [ ] Minimierung von Verpackungsmaterial über ein integriertes Pfand-System für wiederverwendbare Verpackungen
