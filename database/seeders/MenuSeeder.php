@@ -116,17 +116,17 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$sauce],
                 'variants' => [
                     [
-                        'price' => 190, 'tax_rate' => 7,
+                        'price' => 240, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$sauce->variations->get(0)],
                     ],
                     [
-                        'price' => 190, 'tax_rate' => 7,
+                        'price' => 240, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$sauce->variations->get(1)],
                     ],
                     [
-                        'price' => 190, 'tax_rate' => 7,
+                        'price' => 240, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$sauce->variations->get(2)],
                     ],
@@ -189,7 +189,7 @@ class MenuSeeder extends Seeder
                 'number' => '6',
                 'variants' =>
                 [[
-                    'price' => 480, 'tax_rate' => 7,
+                    'price' => 550, 'tax_rate' => 7,
                     'default' => true,
                 ]],
             ]]);
@@ -325,7 +325,7 @@ class MenuSeeder extends Seeder
                 'number' => '49',
                 'variants' =>
                 [[
-                    'price' => 990, 'tax_rate' => 7,
+                    'price' => 1090, 'tax_rate' => 7,
                     'default' => true,
                 ]],
             ],
@@ -417,7 +417,7 @@ class MenuSeeder extends Seeder
                 'number' => '39',
                 'variants' =>
                 [[
-                    'price' => 980, 'tax_rate' => 7,
+                    'price' => 1080, 'tax_rate' => 7,
                     'default' => true,
                 ]],
             ],
@@ -439,22 +439,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 690, 'tax_rate' => 7,
+                        'price' => 790, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 690 + 180, 'tax_rate' => 7,
+                        'price' => 790 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 690 + 180, 'tax_rate' => 7,
+                        'price' => 790 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 690, 'tax_rate' => 7,
+                        'price' => 790, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -468,22 +468,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 690, 'tax_rate' => 7,
+                        'price' => 790, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 690 + 180, 'tax_rate' => 7,
+                        'price' => 790 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 690 + 180, 'tax_rate' => 7,
+                        'price' => 790 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 690, 'tax_rate' => 7,
+                        'price' => 790, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -496,22 +496,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 690, 'tax_rate' => 7,
+                        'price' => 790, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 690 + 180, 'tax_rate' => 7,
+                        'price' => 790 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 690 + 180, 'tax_rate' => 7,
+                        'price' => 790 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 690, 'tax_rate' => 7,
+                        'price' => 790, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -523,22 +523,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 690, 'tax_rate' => 7,
+                        'price' => 790, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 690 + 180, 'tax_rate' => 7,
+                        'price' => 790 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 690 + 180, 'tax_rate' => 7,
+                        'price' => 790 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 690, 'tax_rate' => 7,
+                        'price' => 790, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -551,22 +551,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 670, 'tax_rate' => 7,
+                        'price' => 770, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 670 + 180, 'tax_rate' => 7,
+                        'price' => 770 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 670 + 180, 'tax_rate' => 7,
+                        'price' => 770 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 670, 'tax_rate' => 7,
+                        'price' => 770, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -579,22 +579,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 730, 'tax_rate' => 7,
+                        'price' => 830, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 730 + 180, 'tax_rate' => 7,
+                        'price' => 830 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 730 + 180, 'tax_rate' => 7,
+                        'price' => 830 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 730, 'tax_rate' => 7,
+                        'price' => 830, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -617,22 +617,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 650, 'tax_rate' => 7,
+                        'price' => 720, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 650 + 180, 'tax_rate' => 7,
+                        'price' => 720 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 650 + 180, 'tax_rate' => 7,
+                        'price' => 720 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 650, 'tax_rate' => 7,
+                        'price' => 720, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -645,22 +645,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 650, 'tax_rate' => 7,
+                        'price' => 720, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 650 + 180, 'tax_rate' => 7,
+                        'price' => 720 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 650 + 180, 'tax_rate' => 7,
+                        'price' => 720 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 650, 'tax_rate' => 7,
+                        'price' => 720, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -673,22 +673,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 650, 'tax_rate' => 7,
+                        'price' => 720, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 650 + 180, 'tax_rate' => 7,
+                        'price' => 720 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 650 + 180, 'tax_rate' => 7,
+                        'price' => 720 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 650, 'tax_rate' => 7,
+                        'price' => 720, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -701,22 +701,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 690, 'tax_rate' => 7,
+                        'price' => 790, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 690 + 180, 'tax_rate' => 7,
+                        'price' => 790 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 690 + 180, 'tax_rate' => 7,
+                        'price' => 790 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 690, 'tax_rate' => 7,
+                        'price' => 790, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -729,22 +729,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 690, 'tax_rate' => 7,
+                        'price' => 790, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 690 + 180, 'tax_rate' => 7,
+                        'price' => 790 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 690 + 180, 'tax_rate' => 7,
+                        'price' => 790 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 690, 'tax_rate' => 7,
+                        'price' => 790, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -757,22 +757,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 720, 'tax_rate' => 7,
+                        'price' => 820, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 720 + 180, 'tax_rate' => 7,
+                        'price' => 820 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 720 + 180, 'tax_rate' => 7,
+                        'price' => 820 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 720, 'tax_rate' => 7,
+                        'price' => 820, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -785,22 +785,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 690, 'tax_rate' => 7,
+                        'price' => 790, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 690 + 180, 'tax_rate' => 7,
+                        'price' => 790 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 690 + 180, 'tax_rate' => 7,
+                        'price' => 790 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 690, 'tax_rate' => 7,
+                        'price' => 790, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -812,22 +812,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 750, 'tax_rate' => 7,
+                        'price' => 850, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 750 + 180, 'tax_rate' => 7,
+                        'price' => 850 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 750 + 180, 'tax_rate' => 7,
+                        'price' => 850 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 750, 'tax_rate' => 7,
+                        'price' => 850, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -840,82 +840,82 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage, $sauce2],
                 'variants' => [
                     [
-                        'price' => 720, 'tax_rate' => 7,
+                        'price' => 820, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0), $sauce2->variations->get(0)],
                     ],
                     [
-                        'price' => 720 + 180, 'tax_rate' => 7,
+                        'price' => 820 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1), $sauce2->variations->get(0)],
                     ],
                     [
-                        'price' => 720 + 180, 'tax_rate' => 7,
+                        'price' => 820 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2), $sauce2->variations->get(0)],
                     ],
                     [
-                        'price' => 720, 'tax_rate' => 7,
+                        'price' => 820, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3), $sauce2->variations->get(0)],
                     ],
                     [
-                        'price' => 720, 'tax_rate' => 7,
+                        'price' => 820, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(0), $sauce2->variations->get(1)],
                     ],
                     [
-                        'price' => 720 + 180, 'tax_rate' => 7,
+                        'price' => 820 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1), $sauce2->variations->get(1)],
                     ],
                     [
-                        'price' => 720 + 180, 'tax_rate' => 7,
+                        'price' => 820 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2), $sauce2->variations->get(1)],
                     ],
                     [
-                        'price' => 720, 'tax_rate' => 7,
+                        'price' => 820, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3), $sauce2->variations->get(1)],
                     ],
                     [
-                        'price' => 720, 'tax_rate' => 7,
+                        'price' => 820, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(0), $sauce2->variations->get(2)],
                     ],
                     [
-                        'price' => 720 + 180, 'tax_rate' => 7,
+                        'price' => 820 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1), $sauce2->variations->get(2)],
                     ],
                     [
-                        'price' => 720 + 180, 'tax_rate' => 7,
+                        'price' => 820 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2), $sauce2->variations->get(2)],
                     ],
                     [
-                        'price' => 720, 'tax_rate' => 7,
+                        'price' => 820, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3), $sauce2->variations->get(2)],
                     ],
                     [
-                        'price' => 720, 'tax_rate' => 7,
+                        'price' => 820, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(0), $sauce2->variations->get(3)],
                     ],
                     [
-                        'price' => 720 + 180, 'tax_rate' => 7,
+                        'price' => 820 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1), $sauce2->variations->get(3)],
                     ],
                     [
-                        'price' => 720 + 180, 'tax_rate' => 7,
+                        'price' => 820 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2), $sauce2->variations->get(3)],
                     ],
                     [
-                        'price' => 720, 'tax_rate' => 7,
+                        'price' => 820, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3), $sauce2->variations->get(3)],
                     ],
@@ -928,22 +928,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 720, 'tax_rate' => 7,
+                        'price' => 820, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 720 + 180, 'tax_rate' => 7,
+                        'price' => 820 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 720 + 180, 'tax_rate' => 7,
+                        'price' => 820 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 720, 'tax_rate' => 7,
+                        'price' => 820, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -968,22 +968,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 750, 'tax_rate' => 7,
+                        'price' => 850, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 750 + 180, 'tax_rate' => 7,
+                        'price' => 850 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 750 + 180, 'tax_rate' => 7,
+                        'price' => 850 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 750, 'tax_rate' => 7,
+                        'price' => 850, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -995,22 +995,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 750, 'tax_rate' => 7,
+                        'price' => 850, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 750 + 180, 'tax_rate' => 7,
+                        'price' => 850 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 750 + 180, 'tax_rate' => 7,
+                        'price' => 850 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 750, 'tax_rate' => 7,
+                        'price' => 850, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1022,22 +1022,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 750, 'tax_rate' => 7,
+                        'price' => 850, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 750 + 180, 'tax_rate' => 7,
+                        'price' => 850 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 750 + 180, 'tax_rate' => 7,
+                        'price' => 850 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 750, 'tax_rate' => 7,
+                        'price' => 850, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1049,22 +1049,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 790, 'tax_rate' => 7,
+                        'price' => 850, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 790 + 180, 'tax_rate' => 7,
+                        'price' => 850 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 790 + 180, 'tax_rate' => 7,
+                        'price' => 850 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 790, 'tax_rate' => 7,
+                        'price' => 850, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1075,22 +1075,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 790, 'tax_rate' => 7,
+                        'price' => 890, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 790 + 180, 'tax_rate' => 7,
+                        'price' => 890 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 790 + 180, 'tax_rate' => 7,
+                        'price' => 890 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 790, 'tax_rate' => 7,
+                        'price' => 890, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1112,22 +1112,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 990, 'tax_rate' => 7,
+                        'price' => 1030, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 990 + 180, 'tax_rate' => 7,
+                        'price' => 1030 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 990 + 180, 'tax_rate' => 7,
+                        'price' => 1030 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 990, 'tax_rate' => 7,
+                        'price' => 1030, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1138,22 +1138,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 930, 'tax_rate' => 7,
+                        'price' => 1030, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 930 + 180, 'tax_rate' => 7,
+                        'price' => 1030 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 930 + 180, 'tax_rate' => 7,
+                        'price' => 1030 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 930, 'tax_rate' => 7,
+                        'price' => 1030, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1164,22 +1164,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 930, 'tax_rate' => 7,
+                        'price' => 1030, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 930 + 180, 'tax_rate' => 7,
+                        'price' => 1030 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 930 + 180, 'tax_rate' => 7,
+                        'price' => 1030 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 930, 'tax_rate' => 7,
+                        'price' => 1030, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1191,22 +1191,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 930, 'tax_rate' => 7,
+                        'price' => 1090, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 930 + 180, 'tax_rate' => 7,
+                        'price' => 1090 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 930 + 180, 'tax_rate' => 7,
+                        'price' => 1090 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 930, 'tax_rate' => 7,
+                        'price' => 1090, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1218,22 +1218,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 990, 'tax_rate' => 7,
+                        'price' => 1090, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 990 + 180, 'tax_rate' => 7,
+                        'price' => 1090 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 990 + 180, 'tax_rate' => 7,
+                        'price' => 1090 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 990, 'tax_rate' => 7,
+                        'price' => 1090, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1245,22 +1245,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 990, 'tax_rate' => 7,
+                        'price' => 1090, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 990 + 180, 'tax_rate' => 7,
+                        'price' => 1090 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 990 + 180, 'tax_rate' => 7,
+                        'price' => 1090 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 990, 'tax_rate' => 7,
+                        'price' => 1090, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1272,22 +1272,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 990, 'tax_rate' => 7,
+                        'price' => 1090, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 990 + 180, 'tax_rate' => 7,
+                        'price' => 1090 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 990 + 180, 'tax_rate' => 7,
+                        'price' => 1090 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 990, 'tax_rate' => 7,
+                        'price' => 1090, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1310,22 +1310,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 690, 'tax_rate' => 7,
+                        'price' => 750, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 690 + 180, 'tax_rate' => 7,
+                        'price' => 750 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 690 + 180, 'tax_rate' => 7,
+                        'price' => 750 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 690, 'tax_rate' => 7,
+                        'price' => 750, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1336,22 +1336,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 690, 'tax_rate' => 7,
+                        'price' => 750, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 690 + 180, 'tax_rate' => 7,
+                        'price' => 750 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 690 + 180, 'tax_rate' => 7,
+                        'price' => 750 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 690, 'tax_rate' => 7,
+                        'price' => 750, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1363,22 +1363,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 690, 'tax_rate' => 7,
+                        'price' => 750, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 690 + 180, 'tax_rate' => 7,
+                        'price' => 750 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 690 + 180, 'tax_rate' => 7,
+                        'price' => 750 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 690, 'tax_rate' => 7,
+                        'price' => 750, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1390,22 +1390,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 730, 'tax_rate' => 7,
+                        'price' => 830, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 730 + 180, 'tax_rate' => 7,
+                        'price' => 830 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 730 + 180, 'tax_rate' => 7,
+                        'price' => 830 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 730, 'tax_rate' => 7,
+                        'price' => 830, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1417,22 +1417,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 890, 'tax_rate' => 7,
+                        'price' => 990, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 890 + 180, 'tax_rate' => 7,
+                        'price' => 990 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 890 + 180, 'tax_rate' => 7,
+                        'price' => 990 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 890, 'tax_rate' => 7,
+                        'price' => 990, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1443,22 +1443,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 950, 'tax_rate' => 7,
+                        'price' => 1050, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 950 + 180, 'tax_rate' => 7,
+                        'price' => 1050 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 950 + 180, 'tax_rate' => 7,
+                        'price' => 1050 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 950, 'tax_rate' => 7,
+                        'price' => 1050, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1469,22 +1469,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 890, 'tax_rate' => 7,
+                        'price' => 990, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 890 + 180, 'tax_rate' => 7,
+                        'price' => 990 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 890 + 180, 'tax_rate' => 7,
+                        'price' => 990 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 890, 'tax_rate' => 7,
+                        'price' => 990, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1528,22 +1528,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 590, 'tax_rate' => 7,
+                        'price' => 620, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 590 + 180, 'tax_rate' => 7,
+                        'price' => 620 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 590 + 180, 'tax_rate' => 7,
+                        'price' => 620 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 590, 'tax_rate' => 7,
+                        'price' => 620, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1556,22 +1556,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 620, 'tax_rate' => 7,
+                        'price' => 690, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 620 + 180, 'tax_rate' => 7,
+                        'price' => 690 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 620 + 180, 'tax_rate' => 7,
+                        'price' => 690 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 620, 'tax_rate' => 7,
+                        'price' => 690, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1584,22 +1584,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 620, 'tax_rate' => 7,
+                        'price' => 690, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 620 + 180, 'tax_rate' => 7,
+                        'price' => 690 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 620 + 180, 'tax_rate' => 7,
+                        'price' => 690 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 620, 'tax_rate' => 7,
+                        'price' => 690, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1612,22 +1612,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 620, 'tax_rate' => 7,
+                        'price' => 690, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 620 + 180, 'tax_rate' => 7,
+                        'price' => 690 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 620 + 180, 'tax_rate' => 7,
+                        'price' => 690 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 620, 'tax_rate' => 7,
+                        'price' => 690, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1639,7 +1639,7 @@ class MenuSeeder extends Seeder
                 'number' => '104',
                 'variants' => [
                     [
-                        'price' => 620, 'tax_rate' => 7,
+                        'price' => 690, 'tax_rate' => 7,
                         'default' => true,
                     ],
                 ],
@@ -1650,22 +1650,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 620, 'tax_rate' => 7,
+                        'price' => 690, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 620 + 180, 'tax_rate' => 7,
+                        'price' => 690 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 620 + 180, 'tax_rate' => 7,
+                        'price' => 690 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 620, 'tax_rate' => 7,
+                        'price' => 690, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1677,22 +1677,22 @@ class MenuSeeder extends Seeder
                 'variationGroups' => [$beilage],
                 'variants' => [
                     [
-                        'price' => 620, 'tax_rate' => 7,
+                        'price' => 690, 'tax_rate' => 7,
                         'default' => true,
                         'variations' => [$beilage->variations->get(0)],
                     ],
                     [
-                        'price' => 620 + 180, 'tax_rate' => 7,
+                        'price' => 690 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(1)],
                     ],
                     [
-                        'price' => 620 + 180, 'tax_rate' => 7,
+                        'price' => 690 + 180, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(2)],
                     ],
                     [
-                        'price' => 620, 'tax_rate' => 7,
+                        'price' => 690, 'tax_rate' => 7,
                         'default' => false,
                         'variations' => [$beilage->variations->get(3)],
                     ],
@@ -1703,7 +1703,7 @@ class MenuSeeder extends Seeder
                 'number' => '108',
                 'variants' => [
                     [
-                        'price' => 620, 'tax_rate' => 7,
+                        'price' => 690, 'tax_rate' => 7,
                         'default' => true,
                     ],
                 ],
@@ -1879,7 +1879,7 @@ class MenuSeeder extends Seeder
                 'number' => '119'
                 , 'variants' => [
                     [
-                        'price' => 180, 'tax_rate' => 19,
+                        'price' => 200, 'tax_rate' => 19,
                         'default' => true,
                     ]], 'description' => 'inkl. Pfand (0,08 €)'],
             [
@@ -1896,7 +1896,7 @@ class MenuSeeder extends Seeder
                 'description' => 'inkl. Pfand (0,15 €)',
                 'variants' => [
                     [
-                        'price' => 250, 'tax_rate' => 19,
+                        'price' => 260, 'tax_rate' => 19,
                         'default' => true,
                     ],
                 ],
@@ -1908,7 +1908,7 @@ class MenuSeeder extends Seeder
                 'description' => 'inkl. Pfand (0,15 €)',
                 'variants' => [
                     [
-                        'price' => 250, 'tax_rate' => 19,
+                        'price' => 260, 'tax_rate' => 19,
                         'default' => true,
                     ]],
             ],
@@ -1918,7 +1918,7 @@ class MenuSeeder extends Seeder
                 'description' => 'inkl. Pfand (0,15 €)',
                 'variants' => [
                     [
-                        'price' => 250, 'tax_rate' => 19,
+                        'price' => 260, 'tax_rate' => 19,
                         'default' => true,
                     ],
                 ],
@@ -1952,7 +1952,7 @@ class MenuSeeder extends Seeder
                 'description' => '5,0% vol inkl. Pfand (0,08 €)',
                 'variants' => [
                     [
-                        'price' => 180, 'tax_rate' => 19,
+                        'price' => 200, 'tax_rate' => 19,
                         'default' => true,
                     ],
                 ],
@@ -1963,7 +1963,7 @@ class MenuSeeder extends Seeder
                 'number' => '120',
                 'variants' => [
                     [
-                        'price' => 220, 'tax_rate' => 19,
+                        'price' => 250, 'tax_rate' => 19,
                         'default' => true,
                     ],
                 ],
@@ -1974,7 +1974,7 @@ class MenuSeeder extends Seeder
                 'number' => '121',
                 'variants' => [
                     [
-                        'price' => 790, 'tax_rate' => 19,
+                        'price' => 890, 'tax_rate' => 19,
                         'default' => true,
                     ],
                 ],
@@ -1985,7 +1985,7 @@ class MenuSeeder extends Seeder
                 'number' => '121',
                 'variants' => [
                     [
-                        'price' => 890, 'tax_rate' => 19,
+                        'price' => 990, 'tax_rate' => 19,
                         'default' => true,
                     ],
                 ],
@@ -1996,7 +1996,7 @@ class MenuSeeder extends Seeder
                 'number' => '122',
                 'variants' => [
                     [
-                        'price' => 850, 'tax_rate' => 19,
+                        'price' => 950, 'tax_rate' => 19,
                         'default' => true,
                     ],
                 ],
@@ -2018,7 +2018,7 @@ class MenuSeeder extends Seeder
                 'number' => '124',
                 'variants' => [
                     [
-                        'price' => 790, 'tax_rate' => 19,
+                        'price' => 990, 'tax_rate' => 19,
                         'default' => true,
                     ],
                 ],
@@ -2029,7 +2029,7 @@ class MenuSeeder extends Seeder
                 'number' => '126',
                 'variants' => [
                     [
-                        'price' => 1500, 'tax_rate' => 19,
+                        'price' => 1700, 'tax_rate' => 19,
                         'default' => true,
                     ],
                 ],
@@ -2040,7 +2040,7 @@ class MenuSeeder extends Seeder
                 'number' => '127',
                 'variants' => [
                     [
-                        'price' => 790, 'tax_rate' => 19,
+                        'price' => 990, 'tax_rate' => 19,
                         'default' => true,
                     ],
                 ],
@@ -2051,7 +2051,7 @@ class MenuSeeder extends Seeder
                 'number' => '127',
                 'variants' => [
                     [
-                        'price' => 790, 'tax_rate' => 19,
+                        'price' => 990, 'tax_rate' => 19,
                         'default' => true,
                     ],
                 ],
@@ -2060,6 +2060,7 @@ class MenuSeeder extends Seeder
         ]);
 
         // HIGHLIGHTS
+        /*
         $ct = Category::create(
             [
                 'name' => 'Highlights',
@@ -2080,6 +2081,6 @@ class MenuSeeder extends Seeder
         $ct->food()->attach(Food::where('number', '=', '16')->first());
         $ct->food()->attach(Food::where('number', '=', '17')->first());
         $ct->food()->attach(Food::where('number', '=', '18')->first());
-
+*/
     }
 }
